@@ -1,0 +1,9 @@
+#!/bin/zsh
+
+echo "Installing...."
+
+echo "Setting up the virtual environment"
+pyenv virtualenv 3.6.3 blackjack
+
+echo "Downloading requirements"
+pip install -r requirements.txt
